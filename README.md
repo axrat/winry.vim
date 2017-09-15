@@ -1,12 +1,22 @@
-# winry
+# Winry
 `:Winry`
-カーソル行のTODO[]/[x]を切り替えるやつ
+## About
+ vim plugin test repository [WIP]
+## Todo
+ [x] カーソル行のTODO `[ ] / [x]`を切り替える
+ [ ] vimrcからbashを実行する
   
 ### Note
 * reload
   * vim->:source ~/.vimrc
   * vim.:source %
-  
+ 
+### Install for Dein toml
+```
+#~/.dein_lazy.toml
+[[plugins]]
+repo = 'onoie/winry.vim'
+```
 ## Reference
 * http://kannokanno.hatenablog.com/entry/20120403/1333462565
   
