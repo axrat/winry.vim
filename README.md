@@ -3,8 +3,8 @@
 ## About
  vim plugin test repository [WIP]
 ## Todo
- [x] カーソル行のTODO `[ ] / [x]`を切り替える
- [ ] vimrcからbashを実行する
+ * [x] カーソル行のTODO `[ ] / [x]`を切り替える
+ * [ ] vimrcからbashを実行する
   
 ### Note
 * reload
