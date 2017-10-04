@@ -10,6 +10,14 @@
 * reload
   * vim->:source ~/.vimrc
   * vim.:source %
+  
+space->tab
+`:retab!`
+tab->space(2)
+```
+:set expandtab
+:retab
+```
  
 ### Install for Dein toml
 ```
