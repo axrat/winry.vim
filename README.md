@@ -6,22 +6,6 @@
  * [x] カーソル行のTODO `[ ] / [x]`を切り替える
  * [ ] vimrcからbashを実行する
   
-### Note
-* reload
-  * vim->:source ~/.vimrc
-  * vim.:source %
-  
-space(2) to tab
-```
-:set noexpandtab
-:retab!
-```
-tab to space(2)
-```
-:set expandtab
-:retab
-```
- 
 ### Install for Dein toml
 ```
 #~/.dein_lazy.toml
