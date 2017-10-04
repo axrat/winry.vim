@@ -5,7 +5,6 @@ if exists("g:loaded_winry")
 endif
 let g:loaded_winry = 1
 
-
 let s:save_cpo = &cpo
 set cpo&vim
 

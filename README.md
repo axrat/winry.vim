@@ -11,9 +11,12 @@
   * vim->:source ~/.vimrc
   * vim.:source %
   
-space->tab
-`:retab!`
-tab->space(2)
+space(2) to tab
+```
+:set noexpandtab
+:retab!
+```
+tab to space(2)
 ```
 :set expandtab
 :retab
