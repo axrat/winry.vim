@@ -7,7 +7,7 @@
 scriptencoding utf-8
 
 if !exists('g:loaded_winry')
-    finish
+		finish
 endif
 let g:loaded_winry = 1
 
@@ -19,16 +19,23 @@ set cpo&vim
 function! winry#winry()
 	echo "winry"
 endfunction
-
 function! winry#hello()
 	echo "Hello,World!"
 endfunction
-
+function! winry#tab2space()
+	execut 'set expandtab'
+	execut 'retab!'
+endfunction
+function! winry#space2tab()
+	execut 'set noexpandtab'
+	execut 'retab!'
+endfunction
 function! winry#toggle(line)
+	call setline('.', substitute(a:line, '\[ \]', '[D]', ''))
+endfunction
+function! winry#untoggle(line)
 	if a:line =~ '^"*\s*\[x\]'
 		call setline('.', substitute(a:line, '\[x\]', '[ ]', ''))
-	else
-		call setline('.', substitute(a:line, '\[ \]', '[x]', ''))
 	endif
 endfunction
 

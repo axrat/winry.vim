@@ -1,9 +1,28 @@
 # VimPluginNote
 メモ
 
-reload:`:source ~/.vim/dein/repos/github.com/onoie/winry.vim/plugin/winry.vim`
+## Tips
 
-再読込`:source %`
+bashからvim commandを実行する
+```
+vim +":source ~/.vim/dein/repos/github.com/onoie/winry.vim/plugin/winry.vim " +:q
+```
+
+reload .vimrc
+```
+:source %
+```
+
+load vim script
+```
+:source ~/.vim/dein/repos/github.com/onoie/winry.vim/plugin/winry.vim
+```
+
+全選択  
+`ggv<shift+g>`
+ディレクトリ作成  
+`:!mkdir -p %:h`
+
 
 ## Todo
 [x] HelloWorld
