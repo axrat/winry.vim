@@ -16,7 +16,8 @@ set cpo&vim
 
 
 
-command! -nargs=0 Winry call winry#toggle(getline("."))
+command! -nargs=0 Winry call winry#hello()
+command! -nargs=0 WinryToggle call winry#toggle(getline("."))
 
 
 

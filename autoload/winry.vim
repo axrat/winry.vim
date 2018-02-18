@@ -16,6 +16,10 @@ set cpo&vim
 
 
 
+function! winry#hello()
+	echo "HelloWorld"
+endfunction
+
 function! winry#toggle(line)
   if a:line =~ '^"*\s*\[x\]'
     call setline('.', substitute(a:line, '\[x\]', '[ ]', ''))

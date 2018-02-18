@@ -1,10 +1,12 @@
 # VimPluginNote
 メモ
 
-再読込(%はカレントファイル?
-`:source %` 
+reload:`:source ~/.vim/dein/repos/github.com/onoie/winry.vim/plugin/winry.vim`
+
+再読込`:source %`
+
 ## Todo
-[ ] HelloWorld
+[x] HelloWorld
 [x] ToggleFunc
 [ ] pythonを実行
 [ ] bashを実行
