@@ -12,8 +12,19 @@ repo = 'onoie/winry.vim'
 ```
 
 ## Usage
-```
+```vim
 :Winry
+"winry#winry()->Display "winry"
+:WinryHello
+"winry#hello()->Desplay "Hello,World!"
+:WinryTabToSpace
+"winry#tab2space()-> all tab to space in file
+:WinrySpaceToTab
+"winry#space2tab()-> all space to tab in file
+:WinryToggle
+"winry#toggle(getline("."))-> [x] markdown check
+WinryUnToggle
+"winry#untoggle(getline("."))-> [ ] markdown un check
 ```
 
 ## Author
