@@ -16,15 +16,12 @@ set cpo&vim
 
 
 
-function! winry#winry()
-	echo "winry"
-endfunction
 function! winry#hello()
 	echo "Hello,World!"
 endfunction
 function! winry#hello_python()
 python << PYTHON
-print "Hello,Python!"
+print "HelloPython"
 PYTHON
 endfunction
 function! winry#tab2space()

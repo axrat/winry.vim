@@ -16,6 +16,14 @@ set cpo&vim
 
 
 
+"Winry
+function! winry#test()
+	echo strftime("%Y%m%d%H%M%S")
+endfunction
+command! -nargs=0 W call winry#test()
+function! winry#winry()
+	echo "winry"
+endfunction
 command! -nargs=0 Winry call winry#winry()
 command! -nargs=0 WinryHello call winry#hello()
 command! -nargs=0 WinryHelloPython call winry#hello_python()
