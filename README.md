@@ -7,7 +7,6 @@ vim plugin test repository [WIP]
 
 ### Install for Dein toml
 ```
-#~/.dein_lazy.toml
 [[plugins]]
 repo = 'onoie/winry.vim'
 ```
@@ -17,11 +16,6 @@ repo = 'onoie/winry.vim'
 :Winry
 ```
 
-## Todo
- * [x] カーソル行のTODO `[ ] / [x]`を切り替える
- * [ ] vimrcからbashを実行する
-  
-
 ## Author
 onoie  
-
+:email: onoie3@gmail.com
