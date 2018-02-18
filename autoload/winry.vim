@@ -16,16 +16,20 @@ set cpo&vim
 
 
 
+function! winry#winry()
+	echo "winry"
+endfunction
+
 function! winry#hello()
-	echo "HelloWorld"
+	echo "Hello,World!"
 endfunction
 
 function! winry#toggle(line)
-  if a:line =~ '^"*\s*\[x\]'
-    call setline('.', substitute(a:line, '\[x\]', '[ ]', ''))
-  else
-    call setline('.', substitute(a:line, '\[ \]', '[x]', ''))
-  endif
+	if a:line =~ '^"*\s*\[x\]'
+		call setline('.', substitute(a:line, '\[x\]', '[ ]', ''))
+	else
+		call setline('.', substitute(a:line, '\[ \]', '[x]', ''))
+	endif
 endfunction
 
 
