@@ -8,7 +8,7 @@ vim plugin test repository [WIP]
 ## installation for dein toml
 ```vim
 [[plugins]]
-repo = 'onoie/winry.vim'
+repo = 'axrat/winry.vim'
 ```
 
 ## Usage
