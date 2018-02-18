@@ -17,14 +17,12 @@ set cpo&vim
 
 
 "Winry
-"function! winry#test()
-echo strftime('LOADED:%Y%m%d%H%M%S')
-execute 'source /home/onoie/.vim/dein/repos/github.com/onoie/winry.vim/plugin/winry.vim'
+function! winry#test()
+source "/home/onoie/.vim/dein/repos/github.com/onoie/winry.vim/plugin/winry.vim"
 endfunction
 command! -nargs=0 W call winry#test()
 function! winry#winry()
-"echo "winry"
-echo strftime('Winry:%Y%m%d%H%M%S')
+echo strftime('Winry@%Y%m%d%H%M%S')
 endfunction
 command! -nargs=0 Winry call winry#winry()
 command! -nargs=0 WinryHello call winry#hello()
