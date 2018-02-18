@@ -16,5 +16,9 @@ set cpo&vim
 
 
 
+command! -nargs=0 Winry call winry#toggle(getline("."))
+
+
+
 let &cpo = s:save_cpo
 unlet s:save_cpo

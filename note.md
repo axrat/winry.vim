@@ -1,6 +1,18 @@
 # VimPluginNote
 メモ
 
+再読込(%はカレントファイル?
+`:source %` 
+## Todo
+[ ] HelloWorld
+[x] ToggleFunc
+[ ] pythonを実行
+[ ] bashを実行
+
+
+### 構文
+コメント`'コメント`
+
 ### テンプレートからPluginを作成
 [LayoutPlugin](https://github.com/mopp/layoutplugin.vim)
 dein.toml
