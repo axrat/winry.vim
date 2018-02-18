@@ -1,12 +1,12 @@
-# Winry
+# winry.vim
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![](https://img.shields.io/badge/twitter-onoie3-brightgreen.svg)](https://twitter.com/onoie3)
 
-## About
+## about
 vim plugin test repository [WIP]
 
-### Install for Dein toml
-```
+## installation for dein toml
+```vim
 [[plugins]]
 repo = 'onoie/winry.vim'
 ```
