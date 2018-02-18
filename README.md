@@ -17,13 +17,15 @@ repo = 'onoie/winry.vim'
 "winry#winry()->Display "winry"
 :WinryHello
 "winry#hello()->Desplay "Hello,World!"
+:WinryHelloPython
+"winry#hello_python()->Desplay "Hello,World!" by python
 :WinryTabToSpace
 "winry#tab2space()-> all tab to space in file
 :WinrySpaceToTab
 "winry#space2tab()-> all space to tab in file
 :WinryToggle
 "winry#toggle(getline("."))-> [x] markdown check
-WinryUnToggle
+:WinryUnToggle
 "winry#untoggle(getline("."))-> [ ] markdown un check
 ```
 

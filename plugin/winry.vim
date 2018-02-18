@@ -18,6 +18,7 @@ set cpo&vim
 
 command! -nargs=0 Winry call winry#winry()
 command! -nargs=0 WinryHello call winry#hello()
+command! -nargs=0 WinryHelloPython call winry#hello_python()
 command! -nargs=0 WinryTabToSpace call winry#tab2space()
 command! -nargs=0 WinrySpaceToTab call winry#space2tab()
 command! -nargs=0 WinryToggle call winry#toggle(getline("."))

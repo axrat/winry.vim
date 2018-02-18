@@ -22,6 +22,11 @@ endfunction
 function! winry#hello()
 	echo "Hello,World!"
 endfunction
+function! winry#hello_python()
+python << PYTHON
+print "Hello,Python!"
+PYTHON
+endfunction
 function! winry#tab2space()
 	execut 'set expandtab'
 	execut 'retab!'
@@ -31,12 +36,12 @@ function! winry#space2tab()
 	execut 'retab!'
 endfunction
 function! winry#toggle(line)
-	call setline('.', substitute(a:line, '\[ \]', '[D]', ''))
+	call setline('.', substitute(a:line, '\[ \]', '\[x\]', ''))
 endfunction
 function! winry#untoggle(line)
-	if a:line =~ '^"*\s*\[x\]'
+"	if a:line =~ '^"*\s*\[x\]'
 		call setline('.', substitute(a:line, '\[x\]', '[ ]', ''))
-	endif
+"	endif
 endfunction
 
 

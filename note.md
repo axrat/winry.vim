@@ -27,7 +27,7 @@ load vim script
 ## Todo
 [x] HelloWorld
 [x] ToggleFunc
-[ ] pythonを実行
+[x] pythonを実行
 [ ] bashを実行
 
 
